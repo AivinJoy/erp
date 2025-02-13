@@ -5,6 +5,7 @@ html,body{
     padding: 0;
     width: 100vw;
     height: 100vh;
+    background-color: #9aa6b24b;
 }
 
 .navbar{
@@ -22,6 +23,8 @@ html,body{
     list-style: none;
     padding: 0;
     margin:0;
+    margin-left: 20px;
+    margin-right: 25px;
     gap: 25px;
     color: #F7F7F7;
     font-family: roboto;
@@ -37,4 +40,16 @@ html,body{
     display: flex;
     align-items: center;
     text-align: right;
+}
+
+.user-square{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    align-items: right;
+    flex-direction: column;
+    justify-content: right;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
